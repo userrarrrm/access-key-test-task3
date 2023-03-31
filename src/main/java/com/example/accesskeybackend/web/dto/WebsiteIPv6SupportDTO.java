@@ -1,10 +1,13 @@
 package com.example.accesskeybackend.web.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 @Data
 @NoArgsConstructor
-public class IPv6DTO {
-    private String URL;
+@AllArgsConstructor
+public class WebsiteIPv6SupportDTO {
+    private String URI;
     private boolean successful;
 }
