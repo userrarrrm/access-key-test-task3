@@ -1,7 +1,7 @@
-package com.example.accesskeybackend.utils.IPv6Validator.controller;
+package com.example.accesskeybackend.web.controller;
 
-import com.example.accesskeybackend.utils.IPv6Validator.dto.IPv6DTO;
-import com.example.accesskeybackend.utils.IPv6Validator.service.IPv6Service;
+import com.example.accesskeybackend.web.dto.IPv6DTO;
+import com.example.accesskeybackend.web.service.IPv6Service;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

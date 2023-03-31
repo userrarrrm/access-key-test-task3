@@ -1,4 +1,4 @@
-package com.example.accesskeybackend.utils.IPv6Validator.service;
+package com.example.accesskeybackend.web.service;
 
 import org.springframework.stereotype.Service;
 import java.net.Inet6Address;

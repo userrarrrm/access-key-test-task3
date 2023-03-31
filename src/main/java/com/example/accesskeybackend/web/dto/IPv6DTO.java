@@ -1,4 +1,4 @@
-package com.example.accesskeybackend.utils.IPv6Validator.dto;
+package com.example.accesskeybackend.web.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
