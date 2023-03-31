@@ -18,6 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 @Service
@@ -80,10 +81,10 @@ public class AccessKeyTemplateService {
                                         .accessKeyConfig(keyConfig)
                                         .build()
                         )
-                        .toList();
+                        .collect(Collectors.toList());
 
         return templateRepo.saveAllAndFlush(keyTemplates).stream()
                 .map(AccessKeyTemplate::getId)
-                .toList();
+                .collect(Collectors.toList());
     }
 }
